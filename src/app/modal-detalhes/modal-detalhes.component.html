@@ -1,0 +1,27 @@
+<div id="modal-id" class="modal modal-fx-fadeInScale is-active">
+    <div class="modal-background" (click)="close()"></div>
+    <div class="modal-content">
+      <div class="box">
+        <h3 class="title has-text-centered">Divida de {{divida.titulo}}</h3>
+        <table class="table" class="table is-fullwidth is-hoverable has-text-centered">
+          <thead>
+            <tr>
+              <th>Descricao</th>
+              <th>Data Prevista</th>  
+              <th>Valor</th>                                   
+            </tr>
+          </thead>
+          <tbody>
+            <ng-container>
+              <tr>
+                <td>{{divida.descricao}}</td>
+                <td>{{divida.dataPrevistaExecucao}}</td>             
+                <td>{{divida.valor}}</td>
+              </tr>
+            </ng-container>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

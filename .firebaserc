@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tasklist-b72b4": {
+      "hosting": {
+        "who-owes-me": [
+          "tasklist-b72b4"
+        ]
+      }
+    }
+  }
+}
